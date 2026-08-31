@@ -1,0 +1,7 @@
+.branding {
+  position: relative;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
