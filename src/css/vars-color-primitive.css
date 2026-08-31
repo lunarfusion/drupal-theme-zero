@@ -1,0 +1,21 @@
+:root {
+  /*** Neutral ***/
+  --zero-color-black: hsl(240, 10%, 0%);
+  --zero-color-gray-005: hsl(240, 10%, 5%);
+  --zero-color-gray-010: hsl(240, 10%, 10%);
+  --zero-color-gray-012: hsl(240, 10%, 12%);
+  --zero-color-gray-015: hsl(240, 10%, 15%);
+  --zero-color-gray-017: hsl(240, 10%, 17%);
+  --zero-color-gray-020: hsl(240, 10%, 20%);
+  --zero-color-gray-030: hsl(240, 10%, 30%);
+  --zero-color-gray-040: hsl(240, 10%, 40%);
+  --zero-color-gray-050: hsl(240, 10%, 50%);
+  --zero-color-gray-060: hsl(240, 10%, 60%);
+  --zero-color-gray-070: hsl(240, 10%, 70%);
+  --zero-color-gray-075: hsl(240, 10%, 75%);
+  --zero-color-gray-080: hsl(240, 10%, 80%);
+  --zero-color-gray-085: hsl(240, 10%, 85%);
+  --zero-color-gray-090: hsl(240, 10%, 90%);
+  --zero-color-gray-095: hsl(240, 10%, 95%);
+  --zero-color-white: hsl(240, 10%, 100%);
+}

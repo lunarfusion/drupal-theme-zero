@@ -1,0 +1,5 @@
+:root {
+  --zero-color-accent: var(--zero-color-gray-020);
+  --zero-color-fg-base: var(--zero-color-black);
+  --zero-color-bg-base: var(--zero-color-white);
+}

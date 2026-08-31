@@ -1,0 +1,74 @@
+<header role="banner" class="layout layout--header">
+  <div class="container">
+    {% if page.header %}
+      {{ page.header }}
+    {% endif %}
+  </div>
+</header>
+
+  <main role="main" class="main" id="main-content">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+    {% if page.content_top %}
+      <div class="layout layout--content-top">
+        <div class="container">
+          {{ page.content_top }}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if page.content or page.sidebar_second or page.sidebar_first %}
+      <div class="layout layout--content-main">
+
+        {% if page.sidebar_first or page.sidebar_second %}
+          <div class="container">
+            <div class="row row--wrap">
+        {% endif %}
+
+        {% if page.sidebar_first %}
+          <aside class="col col--4" role="complementary">
+            {{ page.sidebar_first }}
+          </aside>
+        {% endif %}
+
+        {% if page.sidebar_first or page.sidebar_second %}
+          <div class="col col--8">
+            {{ page.content }}
+          </div>
+
+        {% else %}
+          <div class="col col--12">
+            {{ page.content }}
+          </div>
+        {% endif %}
+
+        {% if page.sidebar_second %}
+          <aside class="col col--4" role="complementary">
+            {{ page.sidebar_second }}
+          </aside>
+        {% endif %}
+
+        </div> {# end row #}
+      </div> {# end container #}
+
+    </div> {# end content main #}
+ {% endif %}
+
+    {% if page.content_bottom %}
+      <div class="layout layout--content-bottom">
+        <div class="container">
+          {{ page.content_bottom }}
+        </div>
+      </div>
+    {% endif %}
+  </main>
+
+  {% if page.footer %}
+    <footer role="contentinfo" class="layout layout--footer">
+      <div class="container">
+        {{ page.footer }}
+      </div>
+    </footer>
+  {% endif %}
+
+</div>{# /.layout-container #}

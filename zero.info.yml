@@ -1,0 +1,21 @@
+# These fields are required
+name: zero
+description: A barely-there theme for teaching.
+type: theme
+core_version_requirement: ^11
+base theme: false
+logo: dist/images/logo.svg
+screenshot: dist/images/screenshot.png
+
+# Libraries
+libraries:
+  - zero/zero
+
+regions:
+  header: 'Header'
+  content_top: 'Content Top'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  content_bottom: 'Content Bottom'
+  footer: 'Footer'
