@@ -2,6 +2,3 @@ zero:
   css:
     theme:
       dist/style.css: {}
-  dependencies:
-    - core/drupal
-    - core/once

@@ -1,3 +1,6 @@
+/*** BOOTSTRAP ***/
+@import "../src/css/bootstrap-grid.min.css";
+
 /*** VARS ***/
 @import "../src/css/vars-color-primitive.css";
 @import "../src/css/vars-color-semantic-light.css";

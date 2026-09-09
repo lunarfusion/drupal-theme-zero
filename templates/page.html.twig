@@ -22,11 +22,11 @@
 
         {% if page.sidebar_first or page.sidebar_second %}
           <div class="container">
-            <div class="row row--wrap">
+            <div class="row">
         {% endif %}
 
         {% if page.sidebar_first %}
-          <aside class="col col--4" role="complementary">
+          <aside class="col-md-4 col-sm-12" role="complementary">
             {{ page.sidebar_first }}
           </aside>
         {% endif %}
@@ -34,23 +34,23 @@
         {% if page.sidebar_first or page.sidebar_second %}
 
           {% if page.sidebar_first and page.sidebar_second %}
-            <div class="col col--4">
+            <div class="col-md-4 col-sm-12">
               {{ page.content }}
             </div>
           {% else %}
-            <div class="col col--8">
+            <div class="col-md-8 col-sm-12">
               {{ page.content }}
             </div>
           {% endif %}
 
         {% else %}
-          <div class="col col--12">
+          <div class="col-md-12">
             {{ page.content }}
           </div>
         {% endif %}
 
         {% if page.sidebar_second %}
-          <aside class="col col--4" role="complementary">
+          <aside class="col-md-4 col-sm-12" role="complementary">
             {{ page.sidebar_second }}
           </aside>
         {% endif %}
