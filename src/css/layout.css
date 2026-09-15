@@ -1,12 +1,7 @@
-/* div [class^="layout-"] {
-  border: 9px solid var(--zero-color-fg-base);
-  background: var(--zero-color-bg-base);
-} */
-
-
 /* Layout highlights */
 .layout {
   border: 4px dashed hsl(0, 0%, 50%);
+  padding: 1.5rem;
 }
 
 .layout--header {
