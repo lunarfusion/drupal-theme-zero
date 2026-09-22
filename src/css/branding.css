@@ -4,4 +4,43 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
+  .branding__content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .branding__logo {
+    inline-size: 80px;
+  }
+  
+  .branding__sitename {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.15rem;
+    
+    a {
+      text-decoration: none;
+    }
+  }
+  
+  .branding__siteslogan {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+
+/* change site logo to white in dark mode */
+:root {
+  @media (prefers-color-scheme: dark) {
+    .branding .branding__logo img {
+      filter: invert(1);
+    }
+  }
 }
