@@ -1,0 +1,7 @@
+:root {
+  @media (prefers-color-scheme: dark) {
+    --zero-color-accent: var(--zero-color-teal-030);
+    --zero-color-fg-base: var(--zero-color-white);
+    --zero-color-bg-base: var(--zero-color-black);
+  }
+}

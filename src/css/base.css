@@ -55,3 +55,9 @@ img {
   width: 100%;
   height: auto;
 }
+
+a,
+a:hover,
+a:focus {
+  color: var(--zero-color-accent);
+}
